@@ -1,0 +1,22 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{A general model}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Case when \040is known}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Case when \040is known}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{General case when , \040and \040are unknown}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Objective priors with power-law asymptotic behavior}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Some common priors}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Priors based on the Fisher information matrix}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Reference priors}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Hierarchical models}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{A Real Application}{}% 11
+\BOOKMARK [1][-]{section.5}{Discussion}{}% 12
+\BOOKMARK [1][-]{appendix.A}{Appendix A:}{}% 13
+\BOOKMARK [2][-]{subsection.A.1}{Useful Proportionalities}{appendix.A}% 14
+\BOOKMARK [2][-]{subsection.A.2}{Proof of Proposition 2}{appendix.A}% 15
+\BOOKMARK [2][-]{subsection.A.3}{Proof of Theorem 1}{appendix.A}% 16
+\BOOKMARK [2][-]{subsection.A.4}{Proof of Theorem 2}{appendix.A}% 17
+\BOOKMARK [2][-]{subsection.A.5}{Proof of Theorem 4}{appendix.A}% 18
+\BOOKMARK [2][-]{subsection.A.6}{Proof of Theorem 5}{appendix.A}% 19
+\BOOKMARK [2][-]{subsection.A.7}{Proof of Theorem 7}{appendix.A}% 20
+\BOOKMARK [2][-]{subsection.A.8}{Proof of Theorem 8}{appendix.A}% 21
+\BOOKMARK [2][-]{subsection.A.9}{Simulation Study}{appendix.A}% 22

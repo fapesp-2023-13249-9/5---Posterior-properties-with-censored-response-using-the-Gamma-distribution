@@ -1,0 +1,168 @@
+ %\documentstyle[12pt]{article}
+\documentclass[12pt]{article}
+\usepackage{color}
+\makeatletter
+% These allow switching interline spacing; the change takes effect immediately:
+\newcommand{\singlespacing}{\let\CS=\@currsize\renewcommand{\baselinestretch}{1}\tiny\CS}
+\newcommand{\f}{\operatorname}
+%\newcommand{\oneandahalfspacing}{\let\CS=\@currsize\renewcommand{\baselinestretch}{1.5}\tiny\CS}
+%\newcommand{\doublespacing}{\let\CS=\@currsize\renewcommand{\baselinestretch}{2.0}\tiny\CS}
+\oddsidemargin -0.25in \evensidemargin .0in \textwidth 7 in
+\topmargin-0.5in \textheight 22cm
+%\twocolumn[text]
+%% \usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{amsmath,amssymb}
+\usepackage{multirow}
+\usepackage{natbib}
+\pagestyle{myheadings}
+%\pagestyle{empty}
+%\baselineskip=18pt
+%\baselineskip=10pt
+
+\begin{document}
+
+\baselineskip=16pt
+%\singlespacing
+%\doublespacing
+\parskip = 10pt
+\def \qed {\hfill \vrule height7pt width 5pt depth 0pt}
+%\newcommand{\dou}{\partial}
+\setlength\parindent{0pt}
+\def\refhg{\hangindent=20pt\hangafter=1}
+%\def\refmark{\par\vskip 2mm\noindent\refhg}
+\def\refmark{\par\vskip 2.50mm\noindent\refhg}
+%\include{dbtweaged}
+%\include{chirp_rev1recent.tex}
+%\include{dbtlnagad_blind}
+%\include{tksdk1}
+%\include{realam_csa}
+
+\def\mathrlap{\mathpalette\mathrlapinternal} 
+\def\mathclap{\mathpalette\mathclapinternal}
+\def\mathllapinternal#1#2{\llap{$\mathsurround=0pt#1{#2}$}}
+\def\mathrlapinternal#1#2{\rlap{$\mathsurround=0pt#1{#2}$}}
+\newtheorem{theorem}{Theorem}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+
+
+\title{Review Report on
+"Reference posterior properties with censored response using the 
+Gamma distribution"}
+\maketitle
+
+Dear Professor Dr Richard G. Krutchkoff,
+
+We are grateful for the opportunity to submit a revised version of our manuscript to your esteemed journal. Our sincere thanks also go to the reviewers for their constructive comments, insightful criticisms, and valuable suggestions.
+
+Enclosed is our revised manuscript. We have meticulously implemented all the changes suggested by the reviewers, which are highlighted in red for ease of reference.
+
+Thank you for your consideration and guidance in this process.
+
+Best regards,
+
+Dr. Pedro Luiz Ramos
+
+\vspace{-0.3cm}(Corresponding author)
+
+\newpage
+
+
+\section*{Answers to the Reviewer 1}
+
+
+1) Define the notation Gamma(\(\Phi, \mu\)) for the gamma distribution before using the notation.
+
+\textcolor{blue}{\textbf{Response:} Thank you very much for your suggestion. In the revised version, we have included the definition of the incomplete gamma function before using the notation.}
+
+\textcolor{blue}{Defining that $\Gamma(y,x)  =\int_{x}^{\infty}{w^{y-1}e^{-w}dw}$ is the upper incomplete gamma function, the likelihood function in the presence of censoring is given by}
+
+2) In definition 2.1 the expression \(g(x) \propto h(x)\) has been defined. How do we pronounce the expression? Similarly in definition 2.2.
+
+\textcolor{blue}{\textbf{Response:} Thank you very much for your suggestion. We added the correct pronunciation of the expressions as well as a brief explanation for the meaning of each definition, which is given by:}
+
+\textcolor{blue}{In the above $\f{g}(x)\propto \f{h}(x)$ shall be pronounced as $\f{g}(x)$ \textit{is proportional to} $h(x)$, and it means that $\f{g}(x)$ and $\f{h}(x)$ can globally be compared with each other after, possibly, multiplication by positive constants.}
+
+\textcolor{blue}{In the above $\f{g}(x)\underset{x\to a}{\propto} \f{h}(x)$ shall be pronounced as $\f{g}(x)$ is asymptotically proportional to $\f{h}(x)$ as $x\to a$, and it means that $\f{g}(x)$ and $\f{h}(x)$ can be compared on a neighborhood of $a$ after, possibly, multiplication by positive constants.} 
+
+
+\section*{Answers to the Reviewer 2}
+
+1) Please consider differences and novelties of the manuscript with the other papers already published on the same topics.
+
+\textcolor{blue}{\textbf{Response:} Thank you very much for your suggestion. We have modified the introduction in two parts to highlight the novelties and differences of our proposed paper compared to others already published. The first part discusses:}
+
+\textcolor{blue}{However, when studying time-dependent phenomena, it is common to encounter incomplete or partial information, often referred to as censored data. Despite their partial nature, such data can provide essential information about unknown parameters of interest, and excluding them can result in biased estimates. While there is extensive literature on applying objective priors to complete data, the same approach has not been widely considered in the presence of censoring. Santis (2001) discussed a method to modify the Jeffreys prior to accounting for right-censored information and applied this approach to the exponential distribution. Tian et al. (2022) provided a comprehensive literature review and demonstrated how to extend and adapt methods for obtaining objective priors suitable for various types of censored data. Ramos et al. (2020) discussed conditions under which improper priors yield proper posteriors in the presence of censoring for the Weibull distribution. For this particular distribution, the analysis was simpler due to the straightforward form of the survival function included in the likelihood function.}
+
+\textcolor{blue}{Finally, we also include the following (see pg 2):}
+
+\textcolor{blue}{Our results generalize the available findings and, as a special case, describe the behavior for complete data as discussed in Ramos et al. (2021) and the references therein}
+
+2) In the simulation study section, what are the initial values of the Markov Chain Monte Carlo sample algorithm and why you choose them?
+
+\textcolor{blue}{\textbf{Response:} Thank you very much for your comment. We have updated the introduction of the Metropolis-Hastings (MH) algorithm to address this point (see pg 12):}
+
+\textcolor{blue}{1: Compute the initial values of $\phi^{(1)}$ and $\mu^{(1)}$ from (7) and (8), and initialize a counter $j = 1$.}
+
+\textcolor{blue}{The initial values are derived using the proposed approach outlined in Section 4. This approach provides closed-form estimates that are computationally efficient and eliminate the need for a lengthy MCMC chain to achieve convergence to the target distribution. By leveraging these estimates, we significantly reduce computational costs while maintaining the accuracy of the results.}
+
+3) How can the results be reproduced by other researchers? Please provide clear instructions on how to replicate the simulation results, including any random seeds or specific software environments used.
+
+\textcolor{blue}{\textbf{Response:} Thank you very much for your suggestion. We have included the following to address the cited issue of reproducibility. Please see page 13.}
+
+
+\textcolor{blue}{The simulations were conducted using the R software \cite{rsoftware20024}. The optimization procedure implemented was the NR method, as described by Henningsen and Toomet \cite{henningsen2011maxlik}, the Bayesian estimators computed using the M-H algoritm discussed in Section. Pseudo-random samples were generated with the seed set to 2024.}
+
+\textcolor{blue}{The values were generated from a Gamma distribution with $\phi=3$ and $\mu=2$, considering $n$ in the range of $20$ to $120$. The results are analogous for other values of $\phi$ and $\mu$, and this can be verified using the code available on GitHub (see Acknowledgements section)}. 
+
+
+4) What specific parameters were chosen for the Gamma distribution during simulation? Were these parameters fixed or varied across different simulations? If varied, what were the ranges and distribution assumptions?
+
+\textcolor{blue}{\textbf{Response:} Thank you very much for your suggestion. We have included the information on page 16, as shown below:}
+
+\textcolor{blue}{The values were generated from a Gamma distribution with $\phi=3$ and $\mu=2$, considering $n$ in the range of $20$ to $120$. The results are analogous for other values of $\phi$ and $\mu$, and this can be verified using the code available on GitHub (see Acknowledgements section)}. 
+
+5) What specific performance metrics were used to compare the estimators? Were bias, mean squared errors (MSE), or coverage probability considered? How were these metrics calculated, and what were the criteria for determining the superiority of one method over another?
+
+\textcolor{blue}{\textbf{Response:} Thank you very much for your comment. The performance metrics considered in this study were the mean relative error, the mean square error, and the coverage probabilities. They are computed as:}
+
+\textcolor{blue}{
+\begin{align*}%\label{measures}
+\text{MRE}(\theta_{i,0}) =& \dfrac{1}{N}\sum_{j=1}^{N}\frac{\hat\theta_{i,j}}{\theta_{i,0}}, \\ \text{MSE}(\theta_{i,0}) =& \dfrac{1}{N}\sum_{j=1}^{N}\left(\hat\theta_{i,j}-\theta_{i,0}\right)^2  \ \ \text{and}  \\ 
+\text{CP}(\theta_{i,0})=&\dfrac{\sum_{j=1}^{N} I_{(a_{i,j},b_{i,j})}\left(\theta_{j,0}\right)}{N}, 
+\end{align*}
+where $\theta_{i,0}$ is the true, value $I_{A}(x)$ means the indicator function, which under the Bayesian approach, $a_{i,j}$ and $b_{i,j}$ are the respective 0.025 and 0.975 percentiles obtained from the marginal distributions generated from the MCMC for the $j$ sample and the $i$ parameter, or under the MLE based on the assymptotic intervals.}
+
+\textcolor{blue}{The optimal estimation method is characterized by a MRE close to 1, a MSE approaching 0, and coverage probabilities close to the nominal level of 0.95.}
+
+
+6) The author cited some references but did not review their contribution, it is suggested to include some latest references and carefully review all these references.
+
+\textcolor{blue}{\textbf{Response:} Thank you very much for your comment. We have revised the citations we considered and did our best to include additional comments about their contributions. Additionally, we have included some recently published references that address objective priors. We are thankful for your suggestion and are open to including any further comments or references you believe are important.}
+
+7) Can I say that the Markov chain converges already from the very beginning?
+
+\textcolor{blue}{\textbf{Response:}  Thank you very much for your comment. While our approach does not guarantee that the Metropolis-Hastings algorithm converges from the very beginning, we provide a useful method for selecting initial values in closed form without computational cost, which are likely close to the target values of the posterior distribution. By starting the chains near the target distribution, the algorithm requires fewer steps to explore irrelevant areas of the parameter space, allowing it to focus more efficiently on refining the posterior estimate. This typically leads to faster convergence, reducing the computational burden and improving the overall efficiency of the sampling process. We have included the following information in pg 13.}
+
+\textcolor{blue}{While our approach does not guarantee that the Metropolis-Hastings algorithm converges from the very beginning, The initial values  $\phi^{(1)}$ and $\mu^{(1)}$ from (7) and (8) are likely close to the target posterior distribution, enabling the chains to converge more quickly by minimizing the exploration of irrelevant areas in the parameter space. This improves the efficiency of the sampling process, reducing both computational burden and the number of iterations required.}
+
+
+
+8) In my opinion, the most important problem is how readers of the article can generalize this article to other situations and in practical examples.
+
+\textcolor{blue}{\textbf{Response:} Thank you for this insightful comment. We recognize the importance of clarifying how the methodology presented in our paper can be generalized to other situations and applied in practical examples. To address this, we have made several improvements to the manuscript.}
+
+\textcolor{blue}{First, we revised the Introduction to better highlight the contributions of our study and the potential practical applications of our approach. We specifically emphasized how the framework can be applied to both complete and censored datasets, making it relevant for a wide range of fields, such as reliability, survival analysis, and biomedical research.}
+
+\textcolor{blue}{Second, in the Conclusion section, we rewrote parts of the text to explicitly outline how readers can utilize our methodology in practical scenarios. We included examples of potential applications, explaining how the results can be adapted to different datasets and how the methodology can be extended to other problems involving similar data structures.}
+
+\textcolor{blue}{Additionally, as part of our commitment to providing a user-friendly tool, we have implemented our results in the R software as an easy-to-use function. This function requires minimal input from the user—only the dataset—and produces the desired posterior estimates. By streamlining this process, we aim to make our approach accessible to a broad audience and facilitate its application in various disciplines.}
+
+\textcolor{blue}{We are grateful for this suggestion, as it prompted us to consider the broader applicability of our work. We believe these revisions significantly enhance the impact and usability of our results, making them more accessible to practitioners and researchers in diverse fields. }
+
+
+%\bibliographystyle{apalike}
+
+%\bibliography{referencias}
+
+\end{document} 

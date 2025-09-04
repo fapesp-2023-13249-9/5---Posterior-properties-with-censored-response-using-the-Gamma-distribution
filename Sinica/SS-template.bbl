@@ -1,0 +1,228 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Abramowitz and Stegun}{Abramowitz and
+  Stegun}{1972}]{abramowitz}
+Abramowitz, M. and I.~A. Stegun (1972).
+\newblock {\em Handbook of Mathematical Functions\/} (10 ed.).
+\newblock Washington, D.C.: NBS.
+
+\bibitem[\protect\citeauthoryear{Barrat, Barthelemy, and Vespignani}{Barrat
+  et~al.}{2008}]{barrat2008dynamical}
+Barrat, A., M.~Barthelemy, and A.~Vespignani (2008).
+\newblock {\em Dynamical processes on complex networks}.
+\newblock Cambridge university press.
+
+\bibitem[\protect\citeauthoryear{Berger and Bernardo}{Berger and
+  Bernardo}{1989}]{berger1989estimating}
+Berger, J.~O. and J.~M. Bernardo (1989).
+\newblock Estimating a product of means: Bayesian analysis with reference
+  priors.
+\newblock {\em Journal of the American Statistical Association\/}~{\em
+  84\/}(405), 200--207.
+
+\bibitem[\protect\citeauthoryear{Berger and Bernardo}{Berger and
+  Bernardo}{1992}]{berger1992ordered}
+Berger, J.~O. and J.~M. Bernardo (1992).
+\newblock Ordered group reference priors with application to the multinomial
+  problem.
+\newblock {\em Biometrika\/}~{\em 79\/}(1), 25--37.
+
+\bibitem[\protect\citeauthoryear{Berger, Bernardo, et~al.}{Berger
+  et~al.}{1992}]{berger1992development}
+Berger, J.~O., J.~M. Bernardo, et~al. (1992).
+\newblock On the development of reference priors.
+\newblock {\em Bayesian statistics\/}~{\em 4\/}(4), 35--60.
+
+\bibitem[\protect\citeauthoryear{Berger, Bernardo, Sun, et~al.}{Berger
+  et~al.}{2015}]{berger2015}
+Berger, J.~O., J.~M. Bernardo, D.~Sun, et~al. (2015).
+\newblock Overall objective priors.
+\newblock {\em Bayesian Analysis\/}~{\em 10\/}(1), 189--221.
+
+\bibitem[\protect\citeauthoryear{Bernardo}{Bernardo}{1979}]{bernardo1979a}
+Bernardo, J.~M. (1979).
+\newblock Reference posterior distributions for bayesian inference.
+\newblock {\em Journal of the Royal Statistical Society. Series B
+  (Methodological)\/}, 113--147.
+
+\bibitem[\protect\citeauthoryear{Bernardo}{Bernardo}{2005}]{bernardo2005}
+Bernardo, J.~M. (2005).
+\newblock Reference analysis.
+\newblock {\em Handbook of statistics\/}~{\em 25}, 17--90.
+
+\bibitem[\protect\citeauthoryear{Consonni, Fouskakis, Liseo, Ntzoufras,
+  et~al.}{Consonni et~al.}{2018}]{consonni2018prior}
+Consonni, G., D.~Fouskakis, B.~Liseo, I.~Ntzoufras, et~al. (2018).
+\newblock Prior distributions for objective bayesian analysis.
+\newblock {\em Bayesian Analysis\/}~{\em 13\/}(2), 627--679.
+
+\bibitem[\protect\citeauthoryear{Corral, Oss{\'o}, and Llebot}{Corral
+  et~al.}{2010}]{corral2010scaling}
+Corral, {\'A}., A.~Oss{\'o}, and J.~E. Llebot (2010).
+\newblock Scaling of tropical-cyclone dissipation.
+\newblock {\em Nature Physics\/}~{\em 6\/}(9), 693--696.
+
+\bibitem[\protect\citeauthoryear{Deluca and Corral}{Deluca and
+  Corral}{2013}]{deluca2013fitting}
+Deluca, A. and {\'A}.~Corral (2013).
+\newblock Fitting and goodness-of-fit test of non-truncated and truncated
+  power-law distributions.
+\newblock {\em Acta Geophysica\/}~{\em 61\/}(6), 1351--1394.
+
+\bibitem[\protect\citeauthoryear{Ferreira, Ramos, Ramos, Gonzales, Tomazella,
+  Ehlers, Silva, and Louzada}{Ferreira et~al.}{2020}]{ferreira2020objective}
+Ferreira, P.~H., E.~Ramos, P.~L. Ramos, J.~F. Gonzales, V.~L. Tomazella, R.~S.
+  Ehlers, E.~B. Silva, and F.~Louzada (2020).
+\newblock Objective bayesian analysis for the lomax distribution.
+\newblock {\em Statistics \& Probability Letters\/}~{\em 159}, 108677.
+
+\bibitem[\protect\citeauthoryear{Fonseca, Ferreira, and Migon}{Fonseca
+  et~al.}{2008}]{fonseca2008objective}
+Fonseca, T.~C., M.~A. Ferreira, and H.~S. Migon (2008).
+\newblock Objective bayesian analysis for the student-t regression model.
+\newblock {\em Biometrika\/}~{\em 95\/}(2), 325--333.
+
+\bibitem[\protect\citeauthoryear{Fonseca, Migon, and Mirandola}{Fonseca
+  et~al.}{2019}]{fonseca2019reference}
+Fonseca, T.~C., H.~S. Migon, and H.~Mirandola (2019).
+\newblock Reference bayesian analysis for hierarchical models.
+\newblock {\em arXiv preprint arXiv:1904.11609\/}.
+
+\bibitem[\protect\citeauthoryear{Geilhufe, Held, Skr{\o}vseth, Simonsen, and
+  Godtliebsen}{Geilhufe et~al.}{2014}]{geilhufe2014power}
+Geilhufe, M., L.~Held, S.~O. Skr{\o}vseth, G.~S. Simonsen, and F.~Godtliebsen
+  (2014).
+\newblock Power law approximations of movement network data for modeling
+  infectious disease spread.
+\newblock {\em Biometrical Journal\/}~{\em 56\/}(3), 363--382.
+
+\bibitem[\protect\citeauthoryear{Goldstein, Morris, and Yen}{Goldstein
+  et~al.}{2004}]{goldstein2004problems}
+Goldstein, M.~L., S.~A. Morris, and G.~G. Yen (2004).
+\newblock Problems with fitting to the power-law distribution.
+\newblock {\em The European Physical Journal B-Condensed Matter and Complex
+  Systems\/}~{\em 41\/}(2), 255--258.
+
+\bibitem[\protect\citeauthoryear{Hager and Bain}{Hager and
+  Bain}{1970}]{hager1970inferential}
+Hager, H.~W. and L.~J. Bain (1970).
+\newblock Inferential procedures for the generalized gamma distribution.
+\newblock {\em Journal of the American Statistical Association\/}~{\em
+  65\/}(332), 1601--1609.
+
+\bibitem[\protect\citeauthoryear{Hanel, Corominas-Murtra, Liu, and
+  Thurner}{Hanel et~al.}{2017}]{hanel2017fitting}
+Hanel, R., B.~Corominas-Murtra, B.~Liu, and S.~Thurner (2017).
+\newblock Fitting power-laws in empirical data with estimators that work for
+  all exponents.
+\newblock {\em PloS one\/}~{\em 12\/}(2).
+
+\bibitem[\protect\citeauthoryear{Jeffreys}{Jeffreys}{1946}]{jeffreys1946invariant}
+Jeffreys, H. (1946).
+\newblock An invariant form for the prior probability in estimation problems.
+\newblock In {\em Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, Volume 186, pp.\  453--461. The Royal
+  Society.
+
+\bibitem[\protect\citeauthoryear{Kass and Wasserman}{Kass and
+  Wasserman}{1996}]{kass1996selection}
+Kass, R.~E. and L.~Wasserman (1996).
+\newblock The selection of prior distributions by formal rules.
+\newblock {\em Journal of the American Statistical Association\/}~{\em
+  91\/}(435), 1343--1370.
+
+\bibitem[\protect\citeauthoryear{Leisen, Villa, Walker, et~al.}{Leisen
+  et~al.}{2019}]{leisen2018class}
+Leisen, F., C.~Villa, S.~G. Walker, et~al. (2019).
+\newblock On a class of objective priors from scoring rules.
+\newblock {\em Bayesian Analysis\/}.
+
+\bibitem[\protect\citeauthoryear{Liseo}{Liseo}{1993}]{liseo}
+Liseo, B. (1993).
+\newblock Elimination of nuisance parameters with reference priors.
+\newblock {\em Biometrika\/}~{\em 80\/}(2), 295--304.
+
+\bibitem[\protect\citeauthoryear{Lloyd-Jones, Zeng, Sidorenko, Yengo, Moser,
+  Kemper, Wang, Zheng, Magi, Esko, et~al.}{Lloyd-Jones
+  et~al.}{2019}]{lloyd2019improved}
+Lloyd-Jones, L.~R., J.~Zeng, J.~Sidorenko, L.~Yengo, G.~Moser, K.~E. Kemper,
+  H.~Wang, Z.~Zheng, R.~Magi, T.~Esko, et~al. (2019).
+\newblock Improved polygenic prediction by bayesian multiple regression on
+  summary statistics.
+\newblock {\em Nature communications\/}~{\em 10\/}(1), 1--11.
+
+\bibitem[\protect\citeauthoryear{Louzada, Cuminato, Rodriguez, Tomazella,
+  Ferreira, Ramos, Niaki, Gonzatto, Perissini, Alegr{\'\i}a, et~al.}{Louzada
+  et~al.}{2019}]{louzada2019repairable}
+Louzada, F., J.~A. Cuminato, O.~M. Rodriguez, V.~L. Tomazella, P.~H. Ferreira,
+  P.~L. Ramos, S.~R. Niaki, O.~A. Gonzatto, I.~C. Perissini, L.~F.
+  Alegr{\'\i}a, et~al. (2019).
+\newblock A repairable system subjected to hierarchical competing risks:
+  Modeling and applications.
+\newblock {\em IEEE Access\/}~{\em 7}, 171707--171723.
+
+\bibitem[\protect\citeauthoryear{Newman}{Newman}{2018}]{newman2018networks}
+Newman, M. (2018).
+\newblock {\em Networks}.
+\newblock Oxford university press.
+
+\bibitem[\protect\citeauthoryear{Newman}{Newman}{2005}]{newman2005power}
+Newman, M.~E. (2005).
+\newblock Power laws, pareto distributions and zipf's law.
+\newblock {\em Contemporary physics\/}~{\em 46\/}(5), 323--351.
+
+\bibitem[\protect\citeauthoryear{Northrop and Attalides}{Northrop and
+  Attalides}{2016}]{northrop2016}
+Northrop, P. and N.~Attalides (2016).
+\newblock Posterior propriety in bayesian extreme value analyses using
+  reference priors.
+\newblock {\em Statistica Sinica\/}~{\em 26\/}(2).
+
+\bibitem[\protect\citeauthoryear{O'Hagan, Buck, Daneshkhah, Eiser, Garthwaite,
+  Jenkinson, Oakley, and Rakow}{O'Hagan et~al.}{2006}]{o2006uncertain}
+O'Hagan, A., C.~E. Buck, A.~Daneshkhah, J.~R. Eiser, P.~H. Garthwaite, D.~J.
+  Jenkinson, J.~E. Oakley, and T.~Rakow (2006).
+\newblock {\em Uncertain judgements: eliciting experts' probabilities}.
+\newblock John Wiley \& Sons.
+
+\bibitem[\protect\citeauthoryear{Pr{\v{z}}ulj}{Pr{\v{z}}ulj}{2007}]{prvzulj2007biological}
+Pr{\v{z}}ulj, N. (2007).
+\newblock Biological network comparison using graphlet degree distribution.
+\newblock {\em Bioinformatics\/}~{\em 23\/}(2), e177--e183.
+
+\bibitem[\protect\citeauthoryear{Ramos, Achcar, Moala, Ramos, and
+  Louzada}{Ramos et~al.}{2017}]{ramos2017bayesian}
+Ramos, P.~L., J.~A. Achcar, F.~A. Moala, E.~Ramos, and F.~Louzada (2017).
+\newblock Bayesian analysis of the generalized gamma distribution using
+  non-informative priors.
+\newblock {\em Statistics\/}~{\em 51\/}(4), 824--843.
+
+\bibitem[\protect\citeauthoryear{Stacy}{Stacy}{1962}]{stacy1962}
+Stacy, E.~W. (1962).
+\newblock A generalization of the gamma distribution.
+\newblock {\em The Annals of Mathematical Statistics\/}, 1187--1192.
+
+\bibitem[\protect\citeauthoryear{Van~Noortwijk}{Van~Noortwijk}{2001}]{van2001bayes}
+Van~Noortwijk, J.~M. (2001).
+\newblock Bayes estimates of flood quantiles using the generalised gamma
+  distribution.
+\newblock {\em System and Bayesian Reliability\/}, 351--374.
+
+\bibitem[\protect\citeauthoryear{Wang and Matthies}{Wang and
+  Matthies}{2019}]{wang2019novel}
+Wang, C. and H.~G. Matthies (2019).
+\newblock Novel model calibration method via non-probabilistic interval
+  characterization and bayesian theory.
+\newblock {\em Reliability Engineering \& System Safety\/}~{\em 183}, 84--92.
+
+\bibitem[\protect\citeauthoryear{Zellner}{Zellner}{1977}]{zellner1}
+Zellner, A. (1977).
+\newblock Maximal data information prior distributions.
+\newblock {\em In New Methods in the applications of Bayesian Methods\/}.
+
+\bibitem[\protect\citeauthoryear{Zellner}{Zellner}{1984}]{zellner2}
+Zellner, A. (1984).
+\newblock Maximal data information prior distributions.
+\newblock {\em Basic Issues in Econometrics\/}.
+
+\end{thebibliography}
